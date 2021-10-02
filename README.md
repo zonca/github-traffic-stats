@@ -34,3 +34,7 @@ See the `pysm` folder for example output
 Then create an entry in a user crontab with `crontab -e` with the content of `crontab.sh`
 
 Specify as argument to `collect_data.sh` the repository name.
+
+## Merge the CSVs
+
+Use the `merge_csv.sh` script from <https://github.com/nchah/github-traffic-stats/blob/master/bash/merge-csv.sh>
