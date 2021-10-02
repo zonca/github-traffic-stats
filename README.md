@@ -7,12 +7,20 @@ Save Github traffic stats
 
 ## Setup
 
-Create `tok.sh` as:
+Rename `tok-sample.sh` to `tok.sh` and fill it in with a:
 
-    export TOK="xxxxxx"
+* [Github Access Token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
+* Github username
+* Github organization
 
-with a [Github Access Token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
+## Run
 
-Then create an entry in a user crontab with `crontab -e` as `crontab.sh`
+Test it with:
+
+    bash collect_data.sh repository_name
+
+This 
+
+Then create an entry in a user crontab with `crontab -e` with the content of `crontab.sh`
 
 Specify as argument to `collect_data.sh` the repository name.

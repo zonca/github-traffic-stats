@@ -1,1 +1,1 @@
-0 0 * * sun /home/azonca/github-traffic-stats/collect_stats.sh mbpol_openmm_plugin
+0 0 * * sun /full/path/to/github-traffic-stats/collect_stats.sh REPO_NAME
