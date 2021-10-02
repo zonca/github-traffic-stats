@@ -12,7 +12,6 @@ source tok.sh
 mkdir -p $REPO
 cd $REPO
 gts "$USER:$TOK" $REPO 'save_csv' -o $ORG
-cd $ORG
 git add .
 git commit -m "update stats with cron"
 git push
