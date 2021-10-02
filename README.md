@@ -1,6 +1,10 @@
 Save Github traffic stats
 =========================
 
+## Rationale
+
+See the blog post <https://zonca.dev/2021/10/monitor-github-traffic.html>
+
 ## Requirements
 
 * [github-traffic-stats](https://github.com/nchah/github-traffic-stats)
