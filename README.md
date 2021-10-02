@@ -1,5 +1,5 @@
 Save Github traffic stats
-=======================
+=========================
 
 ## Requirements
 
@@ -19,7 +19,13 @@ Test it with:
 
     bash collect_data.sh repository_name
 
-This 
+This should create a folder with the name of your repository, download the stats and commit them to the repository.
+
+## Example output
+
+See the `pysm` folder for example output
+
+## Automate
 
 Then create an entry in a user crontab with `crontab -e` with the content of `crontab.sh`
 
